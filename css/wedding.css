@@ -827,7 +827,7 @@ body.splash-opened .date-badge.animate-hero {
 
 .btn-direction:hover {
   transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 6px 15px rgba(46, 163, 246, 0.45);
+  box-shadow: 0 4px 6px rgb(216 174 46 / 30%);
 }
 
 /* Dynamic height adjustments for short viewports (e.g. mobile browser toolbars visible) */
