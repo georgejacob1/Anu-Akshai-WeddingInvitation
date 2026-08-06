@@ -3,9 +3,9 @@
 :root {
   --bg-color: #f5f5f5;
   --text-main: #212121;
-  --text-brown: #854f35;
-  --text-dark: #2b2623;
-  --accent-blue: #2ea3f6;
+  --text-brown: #ccb118;
+  --text-dark: #9f9259;
+  --accent-blue: #9f9259;
   --font-script: 'Tangerine', cursive;
   --font-moondance: 'Moon Dance', cursive;
   --font-serif: 'Marcellus', serif;
@@ -104,7 +104,7 @@ body {
   align-items: center;
   padding: 40px 20px;
   text-align: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .quote {
@@ -119,7 +119,7 @@ body {
 
 .bible-verse {
   font-size: clamp(12px, 1.8vh, 14px);
-  color: #b57f59;
+  color: #a69536;
   margin-top: 4px;
   margin-bottom: 0;
 }
@@ -162,7 +162,7 @@ body {
 .names-main .ampersand {
   font-family: var(--font-serif);
   font-size: clamp(26px, 3.8vh, 34px);
-  color: #000;
+  color: #9f9259;
   margin: 3px 0;
 }
 
@@ -224,7 +224,7 @@ body {
 
 .family-details p {
   margin: 5px 0;
-  color: #7a3302;
+  color: #998b50;
   font-size: 15px;
   font-family: var(--font-raleway);
 }
@@ -252,7 +252,7 @@ body {
 .names-secondary .ampersand {
   font-family: var(--font-serif);
   font-size: 30px;
-  color: #000;
+  color: #9f9259;
   margin: 5px 0;
 }
 
@@ -293,15 +293,15 @@ body {
 .countdown-box {
   width: 65px;
   height: 65px;
-  background: white;
-  border: 1px solid #b3d6ff;
+  background: #faf6f0bd;
+  border: 1px solid #9f9259;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 36px;
-  color: #6b6762;
+  color: #9f9259;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
@@ -321,7 +321,7 @@ body {
 .events-title {
   font-family: var(--font-raleway);
   font-size: 28px;
-  color: #b57f59;
+  color: #9f9259;
   text-transform: uppercase;
   margin: 0px;
   padding: 0 0 20px 0;
@@ -329,8 +329,8 @@ body {
 
 .event-card {
   width: 100%;
-  background: white;
-  border: 1px solid #b3d6ff;
+  background: #faf6f0bd;
+  border: 1px solid #9f9259;
   border-radius: 12px;
   padding: 30px 20px;
   margin-bottom: 20px;
@@ -366,7 +366,7 @@ body {
 
 .event-location {
   font-size: 14px;
-  color: #000;
+  color: #9f9259;
   margin: 0;
   font-family: var(--font-raleway);
   font-weight: 500;
@@ -406,7 +406,7 @@ body {
   margin-top: 40px;
   width: 75px;
   height: 75px;
-  background: white;
+  background: #faf6f0;
   border: 1px solid #eeb65d;
   border-radius: 100px;
   box-shadow: 0px 0px 10.9px -1px rgba(0, 0, 0, 0.1);
@@ -481,7 +481,7 @@ body {
   width: 18px;
   height: 18px;
   flex-shrink: 0;
-  color: #000;
+  color: #514613;
 }
 
 .ceremony-text-wrapper {
@@ -494,7 +494,7 @@ body {
 .ceremony-date-main {
   margin: 0;
   font-size: 16px;
-  color: #a56911;
+  color: #9f9259;
   font-family: var(--font-sans);
   /* font-weight: 500; */
 }
@@ -502,7 +502,7 @@ body {
 .ceremony-date-sub {
   margin: 0;
   font-size: 16px;
-  color: #a56911;
+  color: #9f9259;
   font-family: var(--font-sans);
 }
 
@@ -534,7 +534,7 @@ body {
 .reach-title {
   font-family: var(--font-raleway);
   font-size: 28px;
-  color: #b57f59;
+  color: #9f9259;
   text-transform: uppercase;
   margin: 0px;
   padding: 0 0 20px 0;
@@ -575,14 +575,14 @@ body {
 
 .btn-direction {
   background: var(--accent-blue);
-  color: white;
+  color: #f5f5f5;
   text-decoration: none;
   padding: 14px 50px;
   border-radius: 100px;
   font-size: 18px;
   margin-top: 15px;
   display: inline-block;
-  box-shadow: 0 4px 6px rgba(46, 163, 246, 0.3);
+  box-shadow: 0 4px 6px rgb(216 174 46 / 30%);
   font-family: var(--font-raleway);
 }
 
@@ -949,7 +949,7 @@ body.splash-opened .date-badge.animate-hero {
 .scroll-mouse-icon {
   width: 14px;
   height: 22px;
-  border: 2px solid #a56911;
+  border: 2px solid #9f9259;
   border-radius: 9px;
   position: relative;
   margin-top: 1px;
